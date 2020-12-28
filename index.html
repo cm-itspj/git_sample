@@ -17,14 +17,26 @@
     <li>キンチョーウー</li>
     <li>ウィンワープー</li>
     <li>チューパパミョーナイン</li>
-<<<<<<< HEAD
     <li>さとう</li>
     <li>Aye Myat</li>
+<<<<<<< HEAD
 =======
     <li>Aye Myat</li>
 
 >>>>>>> c977869494967e9509445e5b4191254e9f4c7d99
 >>>>>>> 66b383e8dc917efa81ae0841480294b111707012
+=======
+>>>>>>> d95d23b4e5cd57f24f92c85b3e799785d2ce7fe7
   </ul>
-  <script></script>
+  <script>
+    const btn = document.querySelector('button');
+    const list = document.querySelectorAll('li');
+    btn.onclick = function() {
+      var arr = [];
+      for (var i = 0; i < list.length; i++) {
+        arr.push(list[i].textContent);
+      }
+      alert("こんにちは " + arr.join("さん、") + "さん");
+    }
+  </script>
 </html>
