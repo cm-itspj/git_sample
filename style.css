@@ -5,6 +5,7 @@ html, body {
 h1 {
   font-size: 2rem;
   margin: 0;
+  font-family: 'Times New Roman';
   color: #778899;
 
 }
