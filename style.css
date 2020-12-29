@@ -5,6 +5,7 @@ html, body {
 h1 {
   font-size: 2rem;
   margin: 0;
+  font-family: 'Times New Roman';
   color: #778899;
 
 }
@@ -12,5 +13,5 @@ li {
   margin: 0;
   top: 35px;
   right: 5px;
-  color: #0d722c;
+  color: #05180b;
 }

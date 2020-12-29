@@ -6,5 +6,5 @@ btn.onclick = function() {
   for (var i = 0; i < list.length; i++) {
     arr.push(list[i].textContent);
   }
-  alert("こんにちは " + arr.join("さん、") + "さん");
+  alert("ごきげんよう " + arr.join("様、") + "様");
 }
